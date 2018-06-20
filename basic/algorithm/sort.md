@@ -133,6 +133,70 @@ function bubbleSort($arr)
 ```
 
 ### 快速排序
+快速排序是由东尼·霍尔所发展的一种排序算法。在平均状况下，排序 n 个项目要 Ο(nlogn) 次比较。在最坏状况下则需要 Ο(n2) 次比较，但这种状况并不常见。事实上，快速排序通常明显比其他 Ο(nlogn) 算法更快，因为它的内部循环（inner loop）可以在大部分的架构上很有效率地被实现出来。
+
+JavaScript 版
+```js
+function quickSort(left, right, arr) {
+  if (left >= right || right > arr.length) {
+    return;
+  }
+
+  var pivot = arr[left];
+  var i = left;
+  var j = right;
+  while (i !== j) {
+    while (arr[j] >= pivot && j > i) {
+      j--;
+    }
+
+    while (arr[i] <= pivot && j > i) {
+      i++;
+    }
+
+    if (j > i) {      
+      var temp = arr[j];
+      arr[j] = arr[i];
+      arr[i] = temp;
+    }
+  }
+
+  arr[left] = arr[i];
+  arr[i] = pivot;
+
+  quickSort(left, i - 1, arr);
+  quickSort(i + 1, right, arr);
+}
+```
+
+PHP 版
+```php
+function quickSort($arr)
+{
+    if (count($arr) <= 1) {
+      return $arr;
+    }
+    $middle = $arr[0];
+    $leftArray = array();
+    $rightArray = array();
+
+    for ($i = 1; $i < count($arr); $i++) {
+        if ($arr[$i] > $middle) {
+          $rightArray[] = $arr[$i];
+        } else {
+          $leftArray[] = $arr[$i];
+        }
+    }
+    $leftArray = quickSort($leftArray);
+    $leftArray[] = $middle;
+    $rightArray = quickSort($rightArray);
+
+    return array_merge($leftArray, $rightArray);
+}
+```
+
+参考资料：
+- [51CTO](http://developer.51cto.com/art/201403/430986.htm)
 
 ### 希尔排序
 

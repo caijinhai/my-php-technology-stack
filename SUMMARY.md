@@ -13,12 +13,20 @@
   * [前端模块化](front-end/module.md)
   * 前端自动化
   * 前端框架集
+  * 移动端
 * 后端篇
-  * PHP
+  * PHP基础
+  * PHP进阶
   * Node.js
 * 数据库篇
   * MySQL
   * MongoDB
+* 服务器篇
+  * Nginx
+  * Apache
+  * Docker
 * 高并发篇
   * 基础篇
   * 进阶篇
+* 团队协作
+  * 版本控制
