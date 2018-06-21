@@ -8,7 +8,7 @@
 * 前端篇
   * HTML
   * CSS
-  * JavaScript
+  * [JavaScript](front-end/js.md)
   * [前端安全类](front-end/safe.md)
   * [前端模块化](front-end/module.md)
   * 前端自动化
