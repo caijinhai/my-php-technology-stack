@@ -17,7 +17,7 @@ PHP 作为一门后端脚本语言，由于其丰富的函数库与无需编译�
 * 移动端
 
 ## 后端篇
-* PHP基础
+* [PHP基础](back-end/php-basic.md)
 * PHP进阶
 * Node.js
 
