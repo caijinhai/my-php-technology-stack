@@ -6,7 +6,7 @@
   * [数据结构与算法](basic/algorithm.md)
   * 操作系统（Linux）
 * 前端篇
-  * HTML
+  * [HTML](front-end/html.md)
   * CSS
   * [JavaScript](front-end/js.md)
   * [前端安全类](front-end/safe.md)
