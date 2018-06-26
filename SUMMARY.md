@@ -26,7 +26,7 @@
   * Apache
   * Docker
 * 高并发篇
-  * 基础篇
-  * 进阶篇
+  * [基础篇](supervene/basic.md)
+  * [进阶篇](supervene/senior.md)
 * 团队协作
   * 版本控制
