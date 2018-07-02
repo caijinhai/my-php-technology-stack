@@ -16,7 +16,7 @@
   * 移动端
 * 后端篇
   * [PHP基础](back-end/php-basic.md)
-  * PHP进阶
+  * [PHP进阶](back-end/php-senior.md)
   * Node.js
 * 数据库篇
   * MySQL
