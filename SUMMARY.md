@@ -2,7 +2,7 @@
 
 * [序](README.md)
 * 基础篇
-  * 计算机网络
+  * [计算机网络](basic/network.md)
   * [数据结构与算法](basic/algorithm.md)
   * 操作系统（Linux）
 * 前端篇
