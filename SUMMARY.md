@@ -13,6 +13,7 @@
   * [前端模块化](front-end/module.md)
   * 前端自动化
   * 前端框架集
+  * [前端高级内容](front-end/advance.md)
   * 移动端
 * 后端篇
   * [PHP基础](back-end/php-basic.md)
