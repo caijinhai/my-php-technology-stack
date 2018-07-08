@@ -4,7 +4,7 @@
 * 基础篇
   * [计算机网络](basic/network.md)
   * [数据结构与算法](basic/algorithm.md)
-  * 操作系统（Linux）
+  * [操作系统（Linux）](basic/linux.md)
 * 前端篇
   * [HTML](front-end/html.md)
   * [CSS](front-end/css.md)
